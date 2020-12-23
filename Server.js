@@ -5,4 +5,5 @@ const server=http.createServer(express())
 
 server.listen(9999,()=>{
     console.log("cnx ......... 9999");
+console.log("hello from the other side ");
 })
